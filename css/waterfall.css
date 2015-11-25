@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    display: block;
+}
+
+body{
+    background: #f3f2f3;
+}
+/*页面宽度*/
+.w1000{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*主容器样式*/
+.wrapper{
+    min-width: 1000px;
+    margin: 0 50px 0 40px;
+}
+/*页面头部header大小*/
+.header{
+    min-width: 980px;
+    height: 140px;
+}
+
+.headerSearch img{
+    width: 119px;
+    height: 40px;
+    border: 0;
+}
+
+.headerSearch form{
+    display: block;
+    position: relative;
+}
+/*搜索输入框样式*/
+.headerSearch input{
+    width: 523px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 0 5px;
+    border: 1px solid #cdcdcd;
+    vertical-align: top;
+    outline: none;
+    box-shadow:1px 1px 1px 0 rgba(0,0,0,0.8) inset;
+}
+/*搜索按钮样式*/
+.headerSearch button{
+    width: 95px;
+    height: 32px;
+    font-size: 14px;
+    background: #ddd url('../images/bg_search.png');
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+}
+/*导航菜单样式*/
+.headerMenu{
+    line-height: 28px;
+    padding: 0;
+    display: inline-block;
+    height: 30px;
+    margin: 22px 0 0 20px;
+    vertical-align: baseline;
+}
+
+.headerMenu a{
+    font-size: 14px;
+    color: #2b66b4;
+    margin-right: 8px;
+}
+
+.headerMenu span{
+    font-size: 14px;
+    margin-right: 8px;
+    color: #3c3c3c;
+}
+/*导航菜单样式*/
+.headerNav{
+    min-width: 980px;
+    height: 39px;
+    padding-top: 15px;
+    position: relative;
+    z-index: 1000;
+}
+
+.headerNav ul{
+    background: url('../images/bg-wpr.png') 0 0 repeat-x;
+    border-radius: 2px 2px 3px 3px;
+    height: 38px;
+}
+
+.headerNav li{
+    list-style: none;
+    float: left;
+    height: 38px;
+    position: relative;
+}
+
+.headerNav li a{
+    display: inline-block;
+    height: 100%;
+    padding: 0 15px;
+    line-height: 38px;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.headerNav li a:hover{
+    background: url('../images/bg-wpr2.png') 0 0 repeat-x;
+}
+/*页面主体导航*/
+.articleNav{
+    min-width: 925px;
+    position: relative;
+    height: 80px;
+    padding: 20px 25px 20px 30px;
+    background-color: #fff;
+    margin: 20px 0;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(180,180,180,.55);
+}
+
+.articleNav ul{
+    width: 670px;
+    height: 80px;
+}
+
+.articleNav li{
+    position: relative;
+    display: inline-block;
+    color: #333;
+    zoom: 1;
+    padding: 0 6px;
+    line-height: 40px;
+    height: 40px;
+}
+
+.articleNav li a{
+    color: #333;
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+    padding: 5px 12px 4px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 8px;
+    text-decoration: none;
+    vertical-align: baseline;
+    line-height: 18px;
+}
+
+.articleNav li a:hover{
+    background: #eaedef;
+}
+/*承载瀑布流图片div样式*/
+.articleBody{
+    min-width: 1000px;
+    position: relative;
+}
+/*图片盒子div*/
+.articleBody .imgBox{
+    width: 175px;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 0 5px #CCCCCC;
+    border-radius: 5px;
+    float: left;
+    margin:0 2px 3px 1px;
+}
+
+.articleBody img{
+    width: 175px;
+    height: auto;
+}
+/*页脚footer*/
+.footer{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #CCC;
+    position: relative;
+}
+
+.footer *{
+    text-decoration: none;
+    word-spacing: 3px;
+    color: #BBB;
+    margin-right: 12px;
+}
+
+.x-forcus{
+    background: url('../images/bg-wpr3.png') 0 0 repeat-x;
+}
+
+.c-forcus{
+    background: #e64e40;
+    color: #fff !important;
+}
